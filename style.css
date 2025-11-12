@@ -1,0 +1,106 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width:100% ;
+    height:100% ;
+}
+#main{
+    width:120% ;
+    height:120% ;
+
+}
+
+#nav{
+    padding:10px 30px;
+}
+
+#nav a{
+    color: black;
+    text-decoration: none;
+    margin-right:30px ;
+    font-size:25px ;
+}
+
+#main>h1{
+    font-size:270px ;
+    font-weight:400 ;
+    padding-left:80px ;
+}
+
+#btmleft{
+    position:absolute ;
+    bottom:20% ;
+    left:3% ;
+}
+
+#btmleft p{
+    font-size:18px ;
+    margin-top:3% ;
+}
+
+#btmleft h3{
+    font-size:25px ;
+}
+
+#btmleft h4{
+    margin-top: 30px;
+    font-size:25px ;
+}
+
+#bottombar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding:30px 0 ;
+    left:0 ;
+}
+#bottombar a{
+    padding-left:100px ;
+    color: black;
+    text-decoration: none;
+    font-size:32px ;
+}
+
+#first\ image,#second\ image{
+    position: absolute;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+#first\ image{
+    top: 50px;
+    left: 700px;
+    width: 220px;
+    height: 300px;
+    transform: translateY(-80px) rotate(-2deg);
+    z-index:3 ;
+}
+
+#second\ image {
+    top: 200px;
+    left: 900px;
+    width: 220px;
+    height: 300px;
+    transform: translateY(-100px)rotate(2deg);
+    z-index: 4;
+}
+
+#third\ image{
+    position: absolute;
+    object-fit: cover;
+    border-radius:8px ;
+    width: 220px;
+    height: 300px;
+    top: 60px;
+    left: 1120px;
+    transform: translateY(-60px)rotate(2deg);
+    z-index: 5;
+
+
+}
